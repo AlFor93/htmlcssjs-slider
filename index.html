@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="left-part">
+          <i class="fas fa-angle-left fa-6x margin-auto"></i>
+        </div>
+        <div class="middle-part">
+          <div class="picture-container">
+            <img class="first active" src="https://i.pinimg.com/originals/d3/63/af/d363affd023946fc81ea85716364271c.png" alt="">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhISBxQWFRIXEBgWFRIVFxcXFxUZGxUWGBcaGBUYKC4gGxonGxUfITEiKC8rLi4uGB8/ODUsNygtLjcBCgoKDg0OFxAQGi0fHR4tLSsrKy0tLS0tKystMDUtKystLS01NzItKy0rLS0tKzgrNS0rKys3Kys4NystNy0tK//AABEIALEBHAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwQBBQYCB//EADIQAQABBAEDAQUGBwEBAAAAAAABAgMEEQUSITFRBhNBYXEigZGhsdEUIzJCweHwFRb/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIEAwX/xAAfEQEAAwACAQUAAAAAAAAAAAAAAQIRAyEEEyIjMVH/2gAMAwEAAhEDEQA/APhoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMxGwYE0WZliqzVHgTYRACgAAPUUzIPIk91U8TEx5BgAAAAAAAAAAAAAAAAAAAAAAABPapQL2HRF2NEM2nIXuKwaMyuqLlym3qiaomr+6Y/tj5yoUTvP1935Nnbw69dlbBxK7nOdPpuZ+mv8Aa5Lnjkj3T+Qr5uHVRR1RHZQdzyOHbo46ev0cPV2qRvx+X1K6wDMeR7tjw3Gf+ldria6KOm3Ne651E6+EfOUFqN5XSmxqY6Xi3RMcnH4/kPKbfa9bsRrugzcX7G4b/AwZuxufBzlq1jYc78/BrpyU5/kisOLGav6mGX0AAAAAAAAAAAAAAAAAAHu1NMXI6/G02RY1HVa70+v/AHwVlnHzblizVTTqYmPj8PnAKw2FPEZNzE95ajcfGP2a8BLYuzar3CIB1nFcria/n9p/GFqcrjsfOqvUVRuaIp19Jnf+PwcVFUx4Zm5VPldctvEpMzOzGtzzXNVZn2bfan9WkBHRSkUjKgA0s497p8r1mu1N6Kp8601DMVTHgYtSJddHO2cXH1bjcue5Hkbubc3XP7QpTMz5YGOPgpSdiOwAewJbdqOqPfT0xPx0zlUUW7mrUxMa8wCEAAAAAAAAAAAAAAAAAGzt85mWsam3b1FNPmJiJ6p8RvbsvaHieFxbNNOTNMTFMRExOp8er50lyMm/k1RORVVVMRqOqZnUfemLrcx7PU5GNFeFciqJqmnp861vczMeKe33wmuexnJUUbiaZj4a33+jUcdn3cOZiiqqKZjvEa/z/wB2bzC9qr+LhdNE9VcdqZq7aify/wBQdij/APMchN/op1NWvEb7fWUeP7O52Tfrpx4iZomInz5nxEfPs6SrlsfFxqPc1buVTV1Vx33uJ/xG/wBlj2N5K3xt69GZMddzVdMz9/VT6eNT89fJNkxyVv2ezq+Q9zER1xTMzG/ERqP1kp4HJ/8AQizX/VO/y1+7oOR5a9x/Nzl2KYndM0zE9uqmZ7/TvO4+ihHJZuLy9GZlUfZ3qbe+/TMfr33+BsjX8pw1XHUz7zzpNm+zd/GtdW+3zhf9t863l1Uzj76aoidTGpjt4mPV7yefu3fZyinJon3kx001R4qjxFU/GJ/X7zZHNXePybViK66fszETFXw1KCbVyKdzE69dN7d/jYt28O9MTR1bir40xrdUb9PT6tpzFGJVwVimxP2oq93Xrz9n4/Xojf4ekLqOOizdnxTP4SsW+Ny7lURTTO59W75DkLNymxTjx/MtU09Uz2ivpqjX13qJ+XdBy/NUZOXTewN25pmJ6Z1M7138eY+HzFUY4uaMimjIq6apnWvn6LPIYVvitbjc7jz8Wu5DOv8AIZM15Mxv5RqI+kIr1+7fmPfVTVqNRuZnUfeIvcplYmRbj+FiqO/iYjt2+EtaCgAAAAAAAAAAAAAAAAAAAAADMTMT2e5v3ZmNzPadowFm/n5WRRq9VMx6dkmXymVl06vzuPopALOXnZGZr+InevlEfo83MvIuW6aa6p1TERTHprwgATXMq/du9VdUzV6o5uVzVuZnfrt5AZmZnywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAG6IVpAhgiYUNCpwKnsV6R4Ss30GQNufWk7JIy_LYCBFU1Ci-Uw" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCOtx7VqdkI334cKMTRhazHPumM6pJGlv2KS3nqF7UGD8-EIr" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_c-0M0-SDaulf-wWbuRgg6uqUhi7LttMs6krpi2n-E5K-wi_Ew" alt="">
+            <img class="last" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3Zo73PFXmTF-IoKSvcvs6v-D-qaGrpSh1M6ew6YnPTC6rn_X6A" alt="">
+
+          </div>
+          <div class="dot-link-container">
+            <div class="dot-link-wrapper margin-auto">
+              <i class="fas fa-circle fa-3x"></i>
+              <i class="far fa-circle fa-3x"></i>
+              <i class="far fa-circle fa-3x"></i>
+              <i class="far fa-circle fa-3x"></i>
+              <i class="far fa-circle fa-3x"></i>
+              <i class="far fa-circle fa-3x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="right-part">
+          <i class="fas fa-angle-right fa-6x margin-auto"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
